@@ -1,7 +1,7 @@
-:root{
-  --orange--color:#F07E15;
-  --black--color:#000000;
-  --grey--color:#16161580;
+:root {
+  --orange--color: #f07e15;
+  --black--color: #000000;
+  --grey--color: #16161580;
 }
 
 /* Mobile-first styles */
@@ -18,6 +18,7 @@
 @media (min-width: 1024px) {
   .container {
     box-sizing: border-box;
+    margin: 8px auto;
     background: #ffffff;
     width: 1440px;
     height: 2148px;

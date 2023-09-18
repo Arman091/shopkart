@@ -1,0 +1,39 @@
+.banner-container {
+}
+
+.banner-star {
+  width: 367px;
+  position: relative;
+  left: 1010px;
+  height: 371px;
+  z-index: 1;
+}
+
+.banner-modal {
+  position: relative;
+  left: 900px;
+  bottom: 380px;
+  z-index: 2;
+  width: 432px;
+  height: 654px;
+}
+
+.image-overlay {
+  position: relative;
+  right: 450px;
+  bottom: 790px;
+  width: 993px;
+  background-color: #f07e15;
+  height: 354.3px;
+  opacity: 0.20000000298023224;
+}
+
+.image-overlay-background {
+  position: relative;
+  right: 450px;
+  bottom: 435px;
+  z-index: -1;
+  width: 990px;
+  height: 354px;
+  background-color: #f07e15;
+}
