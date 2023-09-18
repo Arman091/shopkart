@@ -1,0 +1,33 @@
+.header {
+  box-sizing: border-box;
+  background: #1a1a1a;
+  width: 390px;
+  height: 42px;
+  position: relative;
+}
+
+.banner {
+  opacity: 0.5;
+  width: 470px;
+  height: 682px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Media query for desktops */
+@media (min-width: 1024px) {
+  .header {
+    width: 1440px;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: #1a1a1a;
+  }
+
+  .banner-container {
+    width: 1440px;
+    height: 749px;
+    top: 41px;
+    opacity: 0.5px;
+    background-color: #1a1a1a;
+  }
+}
