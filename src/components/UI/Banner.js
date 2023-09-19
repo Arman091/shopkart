@@ -22,11 +22,15 @@ function Banner() {
           </div>
           <div className="banner-modal">
             <img src={modal} alt="modal" />
-            <div className="image-overlay-background"></div>
+            <div className="image-overlay-background">
+              <div className="object-title-1">
+                <p>OREGON JACKET</p>
+                <p>$124</p>
+              </div>
+            </div>
             <div className="image-overlay"></div>
           </div>
         </div>
-      
       </div>
     </>
   );

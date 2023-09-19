@@ -1,5 +1,6 @@
 import "./home.css";
 import star from "../../assets/Star 1.png";
+import arrow from "../../assets/arrow1.png";
 import Banner from "./Banner";
 function Navbar() {
   return (
@@ -31,6 +32,12 @@ function Navbar() {
         <div className="banner-border-bottom">
           <hr />
           <img src={star} alt="Star" className="ban-bot-star" />
+        </div>
+        <div className="see-more">
+          <p>See More</p>
+          <span>
+            <img src={arrow} alt="arrow" />
+          </span>
         </div>
       </div>
     </>
