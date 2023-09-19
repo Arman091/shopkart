@@ -28,6 +28,10 @@ function Navbar() {
         </div>
 
         <Banner />
+        <div className="banner-border-bottom">
+          <hr />
+          <img src={star} alt="Star" className="ban-bot-star" />
+        </div>
       </div>
     </>
   );
