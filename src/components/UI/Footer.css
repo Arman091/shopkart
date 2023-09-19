@@ -1,0 +1,134 @@
+.footer-top {
+  background-image: url("../../assets/footerback.png");
+  opacity: 0.5px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  color: linear-gradient(0deg, #ffffff, #ffffff);
+  width: 1440px;
+  height: 500px;
+  position: relative;
+  bottom: 25px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-left: 127px;
+}
+
+.footer-left p {
+  color: var(--Grey-Scale-200, rgba(255, 255, 255, 0.5));
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-left {
+  width: 25%;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+
+.footer-left h3 {
+  margin-bottom: 0px;
+
+  font-family: "Syne";
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-left p {
+  margin-top: 0px;
+}
+
+.footer-right {
+  width: 60%;
+  margin-top: 70px;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-right input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 5px 0;
+  margin-bottom: 40px;
+  width: 558px;
+}
+
+.footer-right input::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
+.footer-top h1 {
+  font-family: "Syne";
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 94px;
+}
+
+.ellipse {
+  position: relative;
+  bottom: 19em;
+  left: 58em;
+}
+
+.ellipse p {
+  width: fit-content;
+  position: relative;
+  bottom: 125px;
+  left: 56px;
+  color: #f07e15;
+  font-family: "Work Sans";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+.footer-bottom {
+  height: 106px;
+  background-color: #000000;
+  position: relative;
+  bottom: 30px;
+}
+.footer-bottom p {
+  width: 40%;
+  margin: 5px auto;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 21px;
+}

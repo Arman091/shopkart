@@ -1,0 +1,132 @@
+@media (min-width: 1024px) {
+  .product-container {
+    width: 1440px;
+    height: 749px;
+  }
+
+  .product-container h2 {
+    margin-left: 83px;
+    font-family: "Syne";
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 108px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .prod-cont-top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .arrows {
+    height: 33px;
+    margin-right: 6em;
+    margin-top: 8.2em;
+  }
+
+  .arrows img:nth-child(1) {
+    margin-right: 50px;
+    cursor: pointer;
+  }
+  .arrows img:nth-child(2) {
+    cursor: pointer;
+  }
+
+  .heading hr {
+    width: 64em;
+    margin-left: 81px;
+  }
+
+  .heading img {
+    /* background-color: black; */
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+  }
+  .products-mid {
+    display: flex;
+    height: 330px;
+  }
+  .prod-list {
+    display: flex;
+
+    transition: transform 0.3s ease;
+  }
+
+  .product-item {
+    width: 310px;
+    height: 322px;
+    margin: 5px 10px;
+  }
+  .prod-category {
+    width: 25%;
+    position: relative;
+    height: 550px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prod-category p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+  }
+  .prod-category p:hover,
+  .prod-category p:active {
+    cursor: pointer;
+    font-family: "Syne";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .products-scroll {
+    width: 80%;
+  }
+
+  .product-description {
+    height: 130px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .product-description::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product-description p {
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .product-description h3 {
+    font-family: "Syne";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .price {
+    font-family: "Syne";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

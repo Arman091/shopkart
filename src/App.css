@@ -5,14 +5,16 @@
 }
 
 /* Mobile-first styles */
+@media (max-width: 480px) {
 .container {
   box-sizing: border-box;
   background: #ffffff;
   width: 390px;
   height: 2121px;
-  position: relative;
   overflow: hidden;
 }
+}
+
 
 /* Media query for desktops */
 @media (min-width: 1024px) {

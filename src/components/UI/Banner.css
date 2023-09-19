@@ -1,126 +1,238 @@
+/* mobile first design */
 .banner-container {
-  display: flex;
-  justify-content: space-between;
-  height: 72%;
-}
+    display: flex;
+    justify-content: space-between;
+    height: 72%;
+  }
+  .banner-star img {
+    width: 367px;
+    position: relative;
+    left: 470px;
+    height: 371px;
+    z-index: 1;
+  }
+   .banner-container-titles {
+    position: relative;
+    width: 533px;
+    height: 640px;
+    left: 144px;
+  }
+  .banner-container-titles h1:nth-child(1) {
+    width: 689px;
+    font-family: "syne";
+    font-weight: 800;
+    font-size: 55px;
+    z-index: 4;
+    top: 21px;
+    right: 65px;
+    position: relative;
+  }
+  .svg-text {
+    font-family: "Syne";
+    font-weight: 800;
+    font-size: 55px;
+    fill: transparent;
+    stroke: white;
+    stroke-width: 1;
+  }
+   .banner-container-titles svg {
+    position: relative;
+    height: 554px;
+    left: 284px;
+    bottom: 127px;
+    z-index: 2;
+  }
+  .banner-container-titles h1:nth-child(3) {
+    width: 689px;
+    font-family: "syne";
+    font-weight: 800;
+    font-size: 55px;
+    z-index: 4;
+    right: 47px;
+    bottom: 123px;
+    margin: 0px;
+    position: relative;
+  }
+  .banner-right {
+    display: flex;
+    width: 907px;
+  }
 
-.banner-star img {
-  width: 367px;
-  position: relative;
-  left: 470px;
-  height: 371px;
-  z-index: 1;
-}
+  .banner-modal img {
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    z-index: 2;
+    width: 432px;
+    height: 654px;
+  }
+  .image-overlay {
+    position: relative;
+    right: 450px;
+    bottom: 804px;
+    width: 993px;
+    background-color: #f07e15;
+    height: 354.3px;
+    opacity: 0.20000000298023224;
+    z-index: 2;
+  }
 
-/* Banner titles ================================ */
-.banner-container-titles {
-  position: relative;
-  width: 533px;
-  height: 640px;
-  left: 144px;
-}
+  .image-overlay-background {
+    position: relative;
+    right: 450px;
+    bottom: 450px;
+    z-index: 0;
+    width: 990px;
+    height: 354px;
+    background-color: #f07e15;
+  }
 
-.ban-bot-star {
-  position: relative;
+  .object-title-1 {
+    width: 180px;
 
-  left: 955px;
-  bottom: 38px;
-  z-index: 4;
-}
-.banner-border-bottom hr {
-  position: relative;
-  z-index: 1;
-  bottom: 18px;
-  width: 993px;
-  margin-left: 0px;
-}
-.banner-container-titles h1:nth-child(1) {
-  width: 689px;
-  font-family: "syne";
-  font-weight: 800;
-  font-size: 135px;
-  z-index: 4;
-  top: 21px;
-  right: 65px;
-  position: relative;
-}
-.svg-text {
-  font-family: "Syne";
-  font-weight: 800;
-  font-size: 135px;
-  fill: transparent;
-  stroke: white;
-  stroke-width: 1;
-}
-.banner-container-titles svg {
-  position: relative;
-  height: 154px;
-  left: 284px;
-  bottom: 127px;
-  z-index: 2;
-}
-.banner-container-titles h1:nth-child(3) {
-  width: 689px;
-  font-family: "syne";
-  font-weight: 800;
-  font-size: 135px;
-  z-index: 4;
-  right: 47px;
-  bottom: 123px;
-  margin: 0px;
-  position: relative;
-}
-.banner-right {
-  display: flex;
-  width: 907px;
-}
+    position: relative;
+    top: 255px;
+    left: 852px;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161615;
+  }
 
-.banner-modal img {
-  position: relative;
-  bottom: 10px;
-  position: relative;
-  z-index: 2;
-  width: 432px;
-  height: 654px;
-}
-.image-overlay {
-  position: relative;
-  right: 450px;
-  bottom: 804px;
-  width: 993px;
-  background-color: #f07e15;
-  height: 354.3px;
-  opacity: 0.20000000298023224;
-  z-index: 2;
-}
+  .object-title-1 p {
+    margin: 0px;
+    padding: 0px;
+  }
 
-.image-overlay-background {
-  position: relative;
-  right: 450px;
-  bottom: 450px;
-  z-index: 0;
-  width: 990px;
-  height: 354px;
-  background-color: #f07e15;
-}
+/*+++++++++++++++++++++ style for desktop devices +++++++++++++++++++++++++++++ */
 
-.object-title-1 {
-  width: 180px;
- 
-  width: 180px;
-  position: relative;
-  top: 255px;
-  left: 104px;
-  font-family: "Work Sans";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #161615;
-}
+@media (min-width: 1024px) {
+  .banner-container {
+    display: flex;
+    justify-content: space-between;
+    height: 72%;
+  }
 
-.object-title-1 p {
-  margin: 0px;
-  padding: 0px;
+  .banner-star img {
+    width: 367px;
+    position: relative;
+    left: 470px;
+    height: 371px;
+    z-index: 1;
+  }
+
+  /* Banner titles ================================ */
+  .banner-container-titles {
+    position: relative;
+    width: 533px;
+    height: 640px;
+    left: 144px;
+  }
+
+  .ban-bot-star {
+    position: relative;
+
+    left: 955px;
+    bottom: 38px;
+    z-index: 4;
+  }
+  .banner-border-bottom hr {
+    position: relative;
+    z-index: 1;
+    bottom: 18px;
+    width: 993px;
+    margin-left: 0px;
+  }
+  .banner-container-titles h1:nth-child(1) {
+    width: 689px;
+    font-family: "syne";
+    font-weight: 800;
+    font-size: 135px;
+    z-index: 4;
+    top: 21px;
+    right: 65px;
+    position: relative;
+  }
+  .svg-text {
+    font-family: "Syne";
+    font-weight: 800;
+    font-size: 135px;
+    fill: transparent;
+    stroke: white;
+    stroke-width: 1;
+  }
+  .banner-container-titles svg {
+    position: relative;
+    height: 154px;
+    left: 284px;
+    bottom: 127px;
+    z-index: 2;
+  }
+  .banner-container-titles h1:nth-child(3) {
+    width: 689px;
+    font-family: "syne";
+    font-weight: 800;
+    font-size: 135px;
+    z-index: 4;
+    right: 47px;
+    bottom: 123px;
+    margin: 0px;
+    position: relative;
+  }
+  .banner-right {
+    display: flex;
+    width: 907px;
+  }
+
+  .banner-modal img {
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    z-index: 2;
+    width: 432px;
+    height: 654px;
+  }
+  .image-overlay {
+    position: relative;
+    right: 450px;
+    bottom: 804px;
+    width: 993px;
+    background-color: #f07e15;
+    height: 354.3px;
+    opacity: 0.20000000298023224;
+    z-index: 2;
+  }
+
+  .image-overlay-background {
+    position: relative;
+    right: 450px;
+    bottom: 450px;
+    z-index: 0;
+    width: 990px;
+    height: 354px;
+    background-color: #f07e15;
+  }
+
+  .object-title-1 {
+    width: 180px;
+
+    position: relative;
+    top: 255px;
+    left: 852px;
+    font-family: "Work Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161615;
+  }
+
+  .object-title-1 p {
+    margin: 0px;
+    padding: 0px;
+  }
 }
