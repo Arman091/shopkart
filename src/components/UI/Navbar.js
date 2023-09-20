@@ -3,6 +3,7 @@ import star from "../../assets/Star 1.png";
 import arrow from "../../assets/arrow1.png";
 import Hamburger from "../../assets/hamburger menu.png"
 import Banner from "./Banner";
+import Navigation from "./NavItems";
 function Navbar() {
   return (
     <>
@@ -23,10 +24,8 @@ function Navbar() {
             <img src={star} alt="Star" className="star-image" />
           </div>
           <div className="nav-items">
-            <p>Home</p>
-            <p>About</p>
-            <p>Our Products</p>
-            <p>Contact US</p>
+           
+            <Navigation/>
           </div>
         </div>
 

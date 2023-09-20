@@ -1,0 +1,23 @@
+/* styles.css */
+
+.nav-item-1 {
+  position: relative; 
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.submenu-1 {
+  display: none; 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color:black;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 4; 
+}
+
+.nav-item-1:hover .submenu-1 {
+  display: block; 
+}
