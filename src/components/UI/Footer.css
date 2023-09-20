@@ -100,9 +100,14 @@
     position: relative;
     bottom: 19em;
     left: 58em;
+    cursor: pointer;
+    width: 180px;
   }
-
-  .ellipse p {
+  .error-message{
+    position: relative;
+    bottom: 45px;
+  }
+  .ellipse p{
     width: fit-content;
     position: relative;
     bottom: 125px;
